@@ -1,0 +1,14 @@
+.block-logos {
+	max-height: 250px;
+	background: #f8f8f8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.block-logos img {
+	padding: 3.39270568% 0;
+	/*padding: 40px 0;*/
+	width: 100%;
+	height: 100%;
+}

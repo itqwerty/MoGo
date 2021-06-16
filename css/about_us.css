@@ -1,0 +1,89 @@
+.block-about-us {
+	margin-top: 90px;
+	min-height: 750px;
+	background: #fff;
+}
+
+.block-title-desc {
+	margin-top: 47px;
+	margin-bottom: 104px;
+}
+
+
+.block-about-us .blocks-img {
+	position: relative;
+	flex-wrap: wrap;
+	min-height: 250px;
+}
+
+.block-about-us .block-img-1 {
+	width: 100%;
+	/*min-height: 260px;*/
+	position: relative;
+	
+}
+
+.block-about-us .block-img-1 .story-1-orange {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	height: 94.6969697%;
+}
+
+
+
+.block-about-us .block-img-1 img, .block-about-us .block-img-2 img, .block-about-us .block-img-3 img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+}
+
+.block-about-us .block-img-1, 
+.block-about-us .block-img-2, 
+.block-about-us .block-img-3 {
+	padding-bottom: 10px;
+}
+
+
+/*__________block-count__________*/
+
+.block-count {
+	background: #95e1d3;
+}
+
+.wrap-count {
+	/*min-height: 270px;*/
+	display: flex;
+	justify-content: center;
+}
+
+.wrap-count .block:nth-child(1){
+	border-left: 1px solid #b5eae0;
+}
+
+.block-count .block {
+	padding: 6.834% 0;
+	width: 19.9166667%;
+	/*min-height: 270px;*/
+	border-right: 1px solid #b5eae0;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: center;*/
+	/*align-self: baseline;*/
+}
+
+
+.block-count .block .number {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 4.5rem;
+	color: #edfaf7;
+}
+
+.block-count .block .desc {
+	font-family: "Montserrat";
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	color: #fff;
+}

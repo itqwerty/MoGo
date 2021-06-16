@@ -1,0 +1,54 @@
+.block-amazing-services {
+	padding-top: 110px;
+	background: #fff;
+	min-height: 650px;
+}
+
+.block-amazing-services .block-title {
+	/*margin-top: 110px;
+	margin-bottom: 15px;*/
+}
+
+.block-amazing-services .block-line-services {
+	display: flex;
+	max-width: 100%;
+	padding: 50px 0;
+
+}
+
+.block-amazing-services .block-services-img {
+	padding: 0 30px;
+}
+
+.block-amazing {
+	display: flex;
+    width: 100%;
+    padding: 50px 0;
+}
+
+
+
+.block-amazing-services .title {
+	font-family: "Montserrat";
+	font-size: 0.875rem;
+	color: #333333;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.block-amazing-services .desc {
+	font-family: "Roboto";
+	font-size: 0.9375rem;
+	color: #999999;
+}
+
+.block-amazing-services .line-services {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grey-line {
+	margin: 0 15px;
+	width: 100%;
+	border-bottom: 1px solid #e5e5e5;
+}

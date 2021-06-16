@@ -1,0 +1,157 @@
+.slider-line {
+	min-height: 290px;
+	background: #f8f8f8;
+	/*padding: 70px 0;*/
+}
+
+
+.mini-slider {
+	width: 90%;
+	min-height: 150px;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	position: relative;
+}
+
+.mini-slider .left {
+	min-width: 15.8333333%;
+	display: flex;
+	justify-content: center;
+	align-self: baseline;
+}
+
+.mini-slider .right {
+	width: 79.6296296%;
+	display: flex;
+	align-items: center;
+	padding-right: 6.48%;
+}
+
+
+.mini-slider .block-img {
+	padding: 21.05%;
+	border: 3px solid #95e1d3;
+}
+
+.Joshua .mini-slider .block-img {
+	border: none;
+	padding: 0;
+}
+
+.Joshua {
+	padding-top: 100px;
+	padding-bottom: 130px;
+}
+
+.mini-slider  img {
+	width: 100%;
+	height: 100%;
+}
+
+.slider-line .block-speech {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto";
+	font-size: 1.5rem;
+	color: #999999;
+	line-height: 1.5;
+}
+
+.slider-line .block-speech cite {
+	font-family: "Kaushan Script";
+	color: #333333;
+	font-size: 1.5rem;
+	margin-top: 25px;
+}
+
+.slider-line .block-speech cite:before {
+	content: "";
+	display: inline-block;
+	width: 7.5%;
+	height: 3px;
+	background: #f38181;
+	margin-right:10px;
+	vertical-align: middle;
+}
+
+/*___________________________-*/
+
+.main-block {
+	display: flex;
+	align-items: center;
+	/*width: 4320px;*/
+	height: 290px;
+}
+
+.wrap-slider {
+	/*display: flex;*/
+	overflow: hidden;
+	/*width: 1080px;*/
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.arrow-left {
+	content: "\f053";
+	display: inline-block;
+	width: 5%;
+	font-family: "Font Awesome 5 Free", "FontAwesome", "Font Awesome 5 Brands";
+	position: absolute;
+	text-align: center;
+	color: #cccccc;
+	left: 0;
+	top: 44.5%;
+}
+
+.arrow-right {
+	content: "\f053";
+	display: inline-block;
+	width: 5%;
+	font-family: "Font Awesome 5 Free", "FontAwesome", "Font Awesome 5 Brands";
+	position: absolute;
+	text-align: center;
+	color: #cccccc;
+	right: 0;
+	top: 44.5%;	
+}
+
+
+
+/*.arrows:before {
+	content: "\f053";
+	display: inline-block;
+	width: 5%;
+	font-family: "Font Awesome 5 Free", "FontAwesome", "Font Awesome 5 Brands";
+	margin-right: 6.25%;
+	position: absolute;
+	text-align: center;
+	color: #cccccc;
+	left: 0;
+	top: 40%;
+}
+
+.arrows:after {
+	content: "\f054";
+	display: inline-block;
+	width: 5%;
+	font-family: "Font Awesome 5 Free", "FontAwesome", "Font Awesome 5 Brands";
+	margin-left: 6.25%;
+	position: absolute;
+	text-align: center;
+	color: #cccccc;
+	right: 0;
+	bottom: 50%;
+}*/
+
+
+.arrow-left, .arrow-right {
+	cursor: pointer;
+}
+
+
+.slider-line .mini-slider .right {
+	margin-left: 2.5%;
+}

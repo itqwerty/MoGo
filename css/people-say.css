@@ -1,0 +1,72 @@
+.block-people-say {
+	min-height: 830px;
+	background-image: url(../images/happy_clients.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.block-people-say .block-title {
+	margin-top: 110px;
+	margin-bottom: 15px;
+}
+
+
+.block-people-say .block {
+	display: flex;
+	max-width: 100%;
+	padding: 50px 0;
+
+}
+
+.block-people-say .block-services-img {
+	margin: 0 30px;
+	width: 18.8%;
+}
+
+.block-people-say .block-services-img img {
+	width: 100%;
+	/*height: 100%;*/
+}
+
+
+.block-people-say .title {
+	font-family: "Montserrat";
+	font-size: 0.875rem;
+	color: #333333;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.block-people-say .block-services-desc {
+	width: 66.6666%;
+}
+
+.block-people-say .desc {
+	font-family: "Roboto";
+	font-size: 0.9375rem;
+	color: #999999;
+	
+}
+
+.block-people-say .line-services {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block-people-say .block-services-desc .title {
+	margin-bottom: 15px;
+}
+
+.block-people-say .block-services-desc .position {
+	font-family: "Roboto";
+	font-size: 0.9375rem;
+	color: #333333;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+.block-people-say .block-services-desc .mini-line {
+	margin: 0;
+	margin-bottom: 25px;
+}

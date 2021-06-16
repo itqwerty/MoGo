@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+	
+}
+
+body {
+	min-width: 600px;
+	
+}
+.grey {
+	color: #999 !important;
+}
+
+.block {
+	display: block !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap !important;
+}
+
+.align-items-center {
+	align-items: center;
+	
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.block-title h1 {
+	font-family: "Kaushan Script";
+	font-size: 1.5rem;
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+.block-title h2 {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 1.875rem;
+	color: #333333;
+	margin-bottom: 40px;
+}
+
+.block-title-desc {
+	margin-top: 47px;
+	margin-bottom: 92px;
+}
+
+.block-title-desc {
+	font-family: "Roboto";
+	font-size: 0.9375rem;
+	color: #999999;
+	line-height: 1.6;
+}
+
+.mini-line {
+	min-height: 3px;
+	max-width: 60px;
+	margin: 0 auto;
+}
+
+.white {
+	background: #fff;
+}
+
+.orange {
+	background: #f38181;
+}
+
+
+

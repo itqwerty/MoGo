@@ -1,0 +1,241 @@
+
+/*__________top-line_____________*/
+
+header {
+	background: url("../images/top.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 1000px;
+}
+
+
+header .top-line .logo a {
+	color: #fff;
+	font-size: 1.875rem;
+	font-family: "Montserrat";
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+header .top-line .menu ul {
+	display: flex;	
+	padding: 0;
+	list-style-type: none;
+	justify-content: flex-end;
+}
+
+header .top-line .menu li {
+	margin-left: 55px;
+	padding: 6px 0;
+	border-bottom: 3px solid transparent;
+	border-top: 3px solid transparent;
+	
+}
+
+header .top-line .menu{
+	color: #fff;
+}
+
+
+header .top-line .menu i {
+	/*display: none;*/
+}
+
+header .top-line .menu li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.875rem;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+}
+
+header .top-line .menu li:hover {
+	border-bottom: 3px solid #fce38a;
+}
+
+header .top-line .menu li:hover a, header .top-line .menu:hover  {
+	color: #fce38a;
+}
+
+header .top-line .menu .active a {
+	color: #fce38a;
+}
+
+header .top-line .menu .active {
+	border-bottom: 3px solid #fce38a;
+}
+
+header .top-line {
+	padding-top: 30px;
+	margin-bottom: 140px;
+}
+
+/*________mobile-nav_______*/
+.mobile-nav {
+	position: fixed;
+	width: 400px;
+	padding: 10px;
+	top: 20px;
+	right: -246px;
+	/*bottom: 0px;*/
+	z-index: 999;
+	border-radius: 8px;
+	display: none;
+}
+
+.menu-open {
+	background: #fff;
+	right: 0px;
+	bottom: 0;
+}
+
+.mobile-nav .icon-menu {
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #C8C8C8;
+	border-radius: 8px;
+}
+
+.mobile-nav ul {
+	padding: 0;
+	list-style-type: none;
+	display: none;
+}
+
+.mobile-nav li {
+	
+	padding: 10px 0;
+}
+.mobile-nav li:active a, .mobile-nav li:active a{
+	border-bottom: 2px solid #000;
+}
+
+.mobile-nav a {
+	color: #999;
+	text-decoration: none;
+	font-size: 2rem;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+
+}
+
+
+
+
+/*________block-welcome_____________*/
+
+.block-welcome {
+	color: #fff;
+}
+
+.block-welcome .title h1 {
+	font-size: 4.5rem;
+	font-family: "Kaushan Script";
+	margin-bottom: 28px;
+	padding: 0;
+}
+
+.block-welcome .desc {
+	font-size: 9.375rem;
+	font-family: "Montserrat";
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.933333;
+	margin-bottom: 58px;
+}
+
+
+
+.block-welcome button {
+	width: 160px;
+	height: 40px;
+	margin-top: 50px;
+	border: 3px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 14px;
+	background: transparent;
+	margin-bottom: 155px;
+	outline: none;
+}
+
+.block-welcome button:hover {
+	cursor: pointer;
+}
+
+
+
+/*______________slider_____________*/
+
+.slider {
+
+}
+
+
+
+.slider .active-2 span {
+	color: #fff;
+}
+
+
+
+
+.slider .block {
+	/*min-height: 70px;*/
+	/*min-width: 280px;*/
+	border-top: 3px solid #f7eac4;
+	position: relative;
+	margin-bottom: 20px;
+	padding-top: 25px;
+}
+
+
+
+.slider .block p::before {
+	content: "";
+	min-height: 3px;
+	min-width: 25.18%;
+	background: #f38181;
+	position: absolute;
+	top: -3px;
+	display: none;
+}
+
+.slider .active-2 {
+	border-top: 3px solid #fff;
+}
+
+.slider .active-2 p::before {
+	display: block;
+}
+
+.slider .block:hover {
+	cursor: pointer;
+	border-top: 3px solid #fff;
+}
+
+.slider .block:hover span {
+	color: #fff;
+}
+
+.slider .block:hover p::before {
+	display: block;
+}
+
+.slider .block p {
+	font-family: "Montserrat";
+	font-size: 1.125rem;
+	line-height: 1.22222;
+	color: #faf4e0;
+	text-transform: uppercase;
+}
+
+.slider .block p span {
+	font-size: 1.5rem;
+	font-weight: bold;
+}

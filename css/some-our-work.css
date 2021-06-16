@@ -1,0 +1,18 @@
+.block-some-our-work {
+	/*min-height: 1631px;*/
+	background: #fff;
+	padding-top: 110px;
+}
+
+.block-some-our-work-bg {
+	/*background-image: url("../images/pic-global.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;*/
+	/*min-height: 780px;*/
+}
+
+.block-some-our-work-bg img {
+	width: 100%;
+	height: 100%;
+}
